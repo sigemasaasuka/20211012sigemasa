@@ -1,0 +1,42 @@
+.logo {
+  text-decoration: none;
+  color: inherit;
+  width: 50%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  position: fixed;
+  box-sizing: border-box;
+  background: #fff;
+}
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.recruit-photo {
+  position: relative;
+  padding-top: calc(120 / 683 * 100%); /* calc(画像高さ ÷ 画像横幅 × 100%) */
+  background: url(../img/mv.png) center center / cover no-repeat;
+}
+
+.recruit-title {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 45%;
+  top: 40%;
+  font-weight: bolder;
+  color: #fff;
+}

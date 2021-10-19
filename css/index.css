@@ -1,0 +1,287 @@
+.logo {
+  text-decoration: none;
+  color: inherit;
+  width: 50%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.home-photo {
+  position: relative;
+  padding-top: calc(250 / 683 * 100%); /* calc(画像高さ ÷ 画像横幅 × 100%) */
+  background: url(../img/mv.png) center center / cover no-repeat;
+}
+
+.home-title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 50px;
+  margin-left: 20%;
+  top: 40%;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.home-title2 {
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-left: 23%;
+  top: 40%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-color {
+  background-color: #000;
+  height: 300px;
+}
+
+.hope {
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 10%;
+  color: #fff;
+}
+
+.hope2 {
+  display: flex;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.service {
+  margin-top: 5%;
+  margin-left: 45%;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.png1 {
+  display: flex;
+  justify-content: center;
+}
+
+.service1 {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.it {
+  margin-top: 1%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.it2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.service2 {
+  margin-top: 3%;
+  margin-left: 2%;
+  width: 40%;
+}
+
+.coach {
+  margin-top: 1%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.coach2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.png2 {
+  display: flex;
+  justify-content: center;
+}
+
+.service3 {
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.Consultant {
+  margin-top: 1%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Consultant2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.service4 {
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 40%;
+}
+
+.formation {
+  margin-top: 1%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.formation2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.list {
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: bold;
+  background: #b22222;
+  text-align: center;
+  margin: 100px auto 0;
+  display: block;
+}
+
+.news {
+  margin-top: 10%;
+  background-color: #000;
+  height: 400px;
+}
+
+.nesw-list {
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.news-font {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.news-button {
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 65%;
+  width: 200px;
+  padding: 10px 0;
+  font-weight: bold;
+  background: #b22222;
+  text-align: center;
+  display: block;
+}
+
+.news-info1 {
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 80%;
+  height: 35px;
+  padding: 10px 0;
+  background: #fff;
+  line-height: 35px;
+  display: block;
+  color: #000;
+}
+.co {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.news-info2 {
+  margin-top: 10px;
+  margin-left: 10%;
+  width: 80%;
+  height: 35px;
+  padding: 10px 0;
+  background: #fff;
+  line-height: 35px;
+  display: block;
+  color: #000;
+}
+.fund {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.news-info3 {
+  margin-top: 10px;
+  margin-left: 10%;
+  width: 80%;
+  height: 35px;
+  padding: 10px 0;
+  background: #fff;
+  line-height: 35px;
+  display: block;
+  color: #000;
+}
+.newspaper {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.blog {
+  margin-top: 70px;
+  margin-left: 40%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.reason-png {
+  width: 25%;
+  margin-left: 5%;
+}
+
+.reason {
+  margin-top: 10px;
+  color: #000;
+}
+
+.reason2 {
+  font-weight: bolder;
+  color: #000;
+}

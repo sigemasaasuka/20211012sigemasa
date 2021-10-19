@@ -1,0 +1,149 @@
+.logo {
+  text-decoration: none;
+  color: inherit;
+  width: 50%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  position: fixed;
+  box-sizing: border-box;
+  background: #fff;
+}
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.home-photo {
+  position: relative;
+  padding-top: calc(250 / 683 * 100%); /* calc(画像高さ ÷ 画像横幅 × 100%) */
+  background: url(../img/mv.png) center center / cover no-repeat;
+}
+
+.home-title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 50px;
+  margin-left: 20%;
+  top: 40%;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.home-title2 {
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-left: 23%;
+  top: 40%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-color {
+  background-color: #000;
+  height: 300px;
+}
+
+.hope {
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 10%;
+  color: #fff;
+}
+
+.hope2 {
+  display: flex;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.service {
+  margin-top: 5%;
+  margin-left: 45%;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.service1 {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.it {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.it2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.service2 {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.coach {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.coach2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.service3 {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.Consultant {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Consultant2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.service4 {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.formation {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.formation2 {
+  font-size: 15px;
+  font-weight: normal;
+}
